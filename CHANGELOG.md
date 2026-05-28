@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.6.3 (2026-05-28)
+
+- NodeJS code generation now wraps generated property names with `-` or `.` in them in quotes to prevent syntax errors [#339](https://github.com/pulumi/crd2pulumi/issues/339)
+
 ## 1.6.2 (2026-05-06)
 
 ### Changed
